@@ -5,9 +5,8 @@ serverPort = 8080
 
 
 class MyServer(BaseHTTPRequestHandler):
-
     """
-        Специальный класс, который отвечает за
+        Класс, который отвечает за
         обработку входящих запросов от клиентов
     """
     filename = 'index.html'
